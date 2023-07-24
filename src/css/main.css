@@ -1,0 +1,114 @@
+/* <main> */
+
+main > section#intro {
+    padding-top: 20px;
+    padding-right: 0;
+    padding-bottom: 20px;
+    padding-left: 0;
+}
+
+main > section#intro p {
+    /* line-height: https://www.w3schools.com/cssref/pr_dim_line-height.php */
+    line-height: 1.8;
+}
+
+.job {
+    background-color: white;
+    position: relative;
+
+    /* border: https://www.w3schools.com/css/css_border.asp*/
+    border-width: 1px;
+    border-style: solid;
+    border-color: gainsboro;
+}
+
+.job .position {
+    margin-bottom: 0;
+}
+
+.job .employer {
+    font-size: 12px;
+    margin-top: 4px;
+}
+
+.job .salary {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.job .salary .amount {
+    font-family: 'Arial Black', sans-serif;
+}
+
+.job .requirements,
+.job .arrangements {
+    margin-bottom: 10px;
+}
+
+.job .requirements {
+    margin-bottom: 45px;
+}
+
+.job .requirements h6,
+.job .arrangements h6
+{
+    margin-bottom: 0;
+}
+
+.job .requirements ul,
+.job .arrangements ul
+{
+    font-size: 12px;
+}
+
+.job .requirements ul li,
+.job .arrangements ul li
+{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.job .actions {
+    text-align: right;
+    width: 100%;
+
+    /* positioning: https://www.w3schools.com/css/css_positioning.asp */
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.job .actions a {
+    font-size: 14px;
+    margin: 15px;
+
+    /* display: https://www.w3schools.com/cssref/pr_class_display.php*/
+    display: inline-block;
+}
+
+.job .actions a.details {
+    margin-right: 7px;
+}
+
+.job .actions a.apply {
+    margin-left: 7px;
+    font-weight: bold;
+}
+
+
+@media screen and (max-width: 576px)
+{
+    main {
+        padding: 0;
+    }
+
+    main > section#intro {
+        padding-top: 30px;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    .job {
+        border: 0;
+    }
+}
