@@ -1,1 +1,1 @@
-Create your files here.
+Create your `_layout.css` in the [**css**](css) folder.
